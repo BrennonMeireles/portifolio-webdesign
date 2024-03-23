@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #090E16;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(123, 74, 226, 0.05);
+    border-radius: 16px;
+}
+
+nav img {
+    width: 36px;
+    height: 40px;    
+}
+
+.nav-topics{
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+nav > .nav-topics a {
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+main {
+    height: 100vh;
+    margin: 50px;
+}
+
+.button-saudacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 160px;
+    height: 45px;
+    border-radius: 16px;
+    background-color: rgba(123, 74, 226, 0.1);
+    margin-bottom: 20px;
+}
+
+.button-saudacao > h4 {
+    color: rgba(123, 74, 226, 1);
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+main > h1 {
+    font-family: Raleway;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 60px;
+    color: #fff;
+}
+
+
+
+
